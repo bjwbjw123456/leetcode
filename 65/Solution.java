@@ -31,7 +31,7 @@ public class Solution {
                 if (e) return false;
                 else e = true;
                 if (i==0 || i==s.length()-1 || (!digit)) return false;
-                if ( !((s.charAt(i-1)<='9' && s.charAt(i-1)>='0')||s.charAt(i-1)=='.') ) return false;
+                //if ( !((s.charAt(i-1)<='9' && s.charAt(i-1)>='0')||s.charAt(i-1)=='.') ) return false;
                 if (i<s.length()-1 && (s.charAt(i+1)=='-' || s.charAt(i+1)=='+' ) ) {
                     i++;
                     if (i==s.length()-1) return false;
